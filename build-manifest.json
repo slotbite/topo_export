@@ -1,0 +1,35 @@
+{
+  "buildId": "828e1c73ca52",
+  "level": "L1",
+  "generatedAt": "2026-09-01T04:38:44.894Z",
+  "files": [
+    {
+      "path": "assets/js/app.358f2c11fe.js",
+      "action": "bundle+obfuscate+pack(inlined)",
+      "from": [
+        "assets/js/app.js"
+      ],
+      "bytesIn": 84684,
+      "sha256Out": "33ada97ed59590d85cabb5cc953cfa35c0e17547e9f2c3f64a8fcc345263d82d",
+      "inlinedInto": "index.html"
+    },
+    {
+      "path": "index.html",
+      "action": "minify-html+bundle+pack",
+      "bytesIn": 32171,
+      "bytesOut": 127383,
+      "sha256In": "b8e03467befce63c92c321cc31c2775a481658262fe23a7a4b4421070cb0c949",
+      "sha256Out": "cf34eee225a2aefe22d325142d1ec861e4c6cf2dd6fa51164936b937d086c745"
+    }
+  ],
+  "metrics": {
+    "fileCount": 2,
+    "bytesIn": 116855,
+    "bytesOut": 98848,
+    "growthPct": -15.4
+  },
+  "pack": {
+    "algo": "AES-256-GCM",
+    "kdf": "SHA-256(host+salt)"
+  }
+}
